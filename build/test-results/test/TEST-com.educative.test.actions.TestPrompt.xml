@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.actions.TestPrompt" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-27T08:12:17" hostname="Akash-Gupta.local" time="15.228">
+  <properties/>
+  <testcase name="testPrompt" classname="com.educative.test.actions.TestPrompt" time="15.228"/>
+  <system-out><![CDATA[13:42:33.131 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (fb7263de57667c1118fb59a0c6f3870e) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

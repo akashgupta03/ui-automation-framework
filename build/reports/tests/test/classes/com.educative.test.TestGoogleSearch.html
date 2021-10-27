@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.educative.test.TestGoogleSearch</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.educative.test.TestGoogleSearch</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.educative.test.html">com.educative.test</a> &gt; TestGoogleSearch</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">22.338s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testGoogleSearchFailure"></a>
+<h3 class="failures">testGoogleSearchFailure</h3>
+<span class="code">
+<pre>java.lang.AssertionError: failing the test to take screenshot
+	at org.testng.Assert.fail(Assert.java:97)
+	at com.educative.test.TestGoogleSearch.testGoogleSearchFailure(TestGoogleSearch.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGoogleSearch</td>
+<td class="success">13.950s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testGoogleSearchFailure</td>
+<td class="failures">8.388s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>13:42:37.597 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:42:37.600 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:43:00.173 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (c0cb0a246c9ea33f6fa47f6159531171) - (DriverManager.java:26) 
+13:43:00.284 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:43:00.291 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:43:01.837 INFO  c.educative.webdriver.DriverFactory - creating webdriver ChromeDriver: chrome on MAC (fc4ad47ad85be67cfb3ee52c53c4546c) - (DriverFactory.java:73) 
+13:43:10.895 INFO  com.educative.BaseTest - saving screenshot to /Users/akashgupta/Downloads/educative-ui-test-framework/screenshots/testgooglesearch_testgooglesearchfailure.png - (BaseTest.java:68) 
+13:43:10.895 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (fc4ad47ad85be67cfb3ee52c53c4546c) - (DriverManager.java:26) 
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 15369
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 3336
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 27, 2021 1:43:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.1</a> at 27-Oct-2021, 1:44:34 pm</p>
+</div>
+</div>
+</body>
+</html>

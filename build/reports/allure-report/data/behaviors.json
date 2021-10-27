@@ -1,0 +1,239 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "testConfirm",
+    "uid" : "6905530033e81140",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322361563,
+      "duration" : 23386
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testCheckBox",
+    "uid" : "93f197599d4225a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322358938,
+      "duration" : 20761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testDoubleClick",
+    "uid" : "7a89daf93cd34dec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322361712,
+      "duration" : 23535
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testTakeScreenshotOfWebElement",
+    "uid" : "8b967445d9fe0af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322349447,
+      "duration" : 11270
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testDropDownDeSelect",
+    "uid" : "d6d0108d8445da31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322370384,
+      "duration" : 32207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testMouseOver",
+    "uid" : "14894e0d9f770eb8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322356910,
+      "duration" : 18733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testAlert",
+    "uid" : "1b3ca1dd035d43c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322352379,
+      "duration" : 14202
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testPrompt",
+    "uid" : "29464acc8946f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322353129,
+      "duration" : 14952
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testRadioButton",
+    "uid" : "5c2b036f24278a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322361723,
+      "duration" : 23546
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testDragAndDrop",
+    "uid" : "642268a56e1890c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322338177,
+      "stop" : 1635322364944,
+      "duration" : 26767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testTakeScreenshotOfWholeWindow",
+    "uid" : "76cbd01e42cfc3e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322363032,
+      "stop" : 1635322367057,
+      "duration" : 4025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testGoogleSearch",
+    "uid" : "7a7b6624a1416a00",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322366213,
+      "stop" : 1635322380161,
+      "duration" : 13948
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testRightClick",
+    "uid" : "4443de8be52b743b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322366215,
+      "stop" : 1635322375273,
+      "duration" : 9058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testACookie",
+    "uid" : "4bdbb2f8c9a46ebf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322366311,
+      "stop" : 1635322368455,
+      "duration" : 2144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testDropDownSelect",
+    "uid" : "407b74883c48ca32",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635322371918,
+      "stop" : 1635322383548,
+      "duration" : 11630
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testGoogleSearchFailure",
+    "uid" : "d550c3a7930ef5f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1635322381858,
+      "stop" : 1635322390240,
+      "duration" : 8382
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testGoogleSearch",
+    "uid" : "fa38b48ad7fa2ca9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1635322394170,
+      "stop" : 1635322463295,
+      "duration" : 69125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testGoogleSearchFailure",
+    "uid" : "2c9896fafe605e35",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1635322466904,
+      "stop" : 1635322473080,
+      "duration" : 6176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

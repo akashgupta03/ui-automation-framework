@@ -1,0 +1,181 @@
+[ {
+  "uid" : "4443de8be52b743b",
+  "name" : "testRightClick",
+  "time" : {
+    "start" : 1635322366215,
+    "stop" : 1635322375273,
+    "duration" : 9058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d550c3a7930ef5f4",
+  "name" : "testGoogleSearchFailure",
+  "time" : {
+    "start" : 1635322381858,
+    "stop" : 1635322390240,
+    "duration" : 8382
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6905530033e81140",
+  "name" : "testConfirm",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322361563,
+    "duration" : 23386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93f197599d4225a",
+  "name" : "testCheckBox",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322358938,
+    "duration" : 20761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c9896fafe605e35",
+  "name" : "testGoogleSearchFailure",
+  "time" : {
+    "start" : 1635322466904,
+    "stop" : 1635322473080,
+    "duration" : 6176
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a89daf93cd34dec",
+  "name" : "testDoubleClick",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322361712,
+    "duration" : 23535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b967445d9fe0af",
+  "name" : "testTakeScreenshotOfWebElement",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322349447,
+    "duration" : 11270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bdbb2f8c9a46ebf",
+  "name" : "testACookie",
+  "time" : {
+    "start" : 1635322366311,
+    "stop" : 1635322368455,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6d0108d8445da31",
+  "name" : "testDropDownDeSelect",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322370384,
+    "duration" : 32207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14894e0d9f770eb8",
+  "name" : "testMouseOver",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322356910,
+    "duration" : 18733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b3ca1dd035d43c1",
+  "name" : "testAlert",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322352379,
+    "duration" : 14202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76cbd01e42cfc3e5",
+  "name" : "testTakeScreenshotOfWholeWindow",
+  "time" : {
+    "start" : 1635322363032,
+    "stop" : 1635322367057,
+    "duration" : 4025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "407b74883c48ca32",
+  "name" : "testDropDownSelect",
+  "time" : {
+    "start" : 1635322371918,
+    "stop" : 1635322383548,
+    "duration" : 11630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29464acc8946f7",
+  "name" : "testPrompt",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322353129,
+    "duration" : 14952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c2b036f24278a1",
+  "name" : "testRadioButton",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322361723,
+    "duration" : 23546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa38b48ad7fa2ca9",
+  "name" : "testGoogleSearch",
+  "time" : {
+    "start" : 1635322394170,
+    "stop" : 1635322463295,
+    "duration" : 69125
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a7b6624a1416a00",
+  "name" : "testGoogleSearch",
+  "time" : {
+    "start" : 1635322366213,
+    "stop" : 1635322380161,
+    "duration" : 13948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "642268a56e1890c5",
+  "name" : "testDragAndDrop",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322364944,
+    "duration" : 26767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

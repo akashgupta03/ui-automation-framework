@@ -1,0 +1,307 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "UI Test Suite",
+    "children" : [ {
+      "name" : "Sample UI Test - Desktop",
+      "children" : [ {
+        "name" : "com.educative.test.actions.TestConfirm",
+        "children" : [ {
+          "name" : "testConfirm",
+          "uid" : "6905530033e81140",
+          "parentUid" : "be02514f267871760c5b848853d20d1b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322361563,
+            "duration" : 23386
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "be02514f267871760c5b848853d20d1b"
+      }, {
+        "name" : "com.educative.test.actions.TestCheckBox",
+        "children" : [ {
+          "name" : "testCheckBox",
+          "uid" : "93f197599d4225a",
+          "parentUid" : "1ef2325bb22f8d307e9419c82106dd6b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322358938,
+            "duration" : 20761
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1ef2325bb22f8d307e9419c82106dd6b"
+      }, {
+        "name" : "com.educative.test.actions.TestDoubleClick",
+        "children" : [ {
+          "name" : "testDoubleClick",
+          "uid" : "7a89daf93cd34dec",
+          "parentUid" : "514aec2004a132c9bbfaff793db697b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322361712,
+            "duration" : 23535
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "514aec2004a132c9bbfaff793db697b4"
+      }, {
+        "name" : "com.educative.test.actions.TestCaptureScreenshot",
+        "children" : [ {
+          "name" : "testTakeScreenshotOfWebElement",
+          "uid" : "8b967445d9fe0af",
+          "parentUid" : "ecee79d509487dca126122ddd9bfd84c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322349447,
+            "duration" : 11270
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTakeScreenshotOfWholeWindow",
+          "uid" : "76cbd01e42cfc3e5",
+          "parentUid" : "ecee79d509487dca126122ddd9bfd84c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322363032,
+            "stop" : 1635322367057,
+            "duration" : 4025
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ecee79d509487dca126122ddd9bfd84c"
+      }, {
+        "name" : "com.educative.test.actions.TestDropDown",
+        "children" : [ {
+          "name" : "testDropDownDeSelect",
+          "uid" : "d6d0108d8445da31",
+          "parentUid" : "b146f41f90dcdb7969568fee2cef6eee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322370384,
+            "duration" : 32207
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDropDownSelect",
+          "uid" : "407b74883c48ca32",
+          "parentUid" : "b146f41f90dcdb7969568fee2cef6eee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322371918,
+            "stop" : 1635322383548,
+            "duration" : 11630
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b146f41f90dcdb7969568fee2cef6eee"
+      }, {
+        "name" : "com.educative.test.actions.TestMouseOver",
+        "children" : [ {
+          "name" : "testMouseOver",
+          "uid" : "14894e0d9f770eb8",
+          "parentUid" : "213dc2b7f0a76fa68527446718b157d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322356910,
+            "duration" : 18733
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "213dc2b7f0a76fa68527446718b157d6"
+      }, {
+        "name" : "com.educative.test.actions.TestAlert",
+        "children" : [ {
+          "name" : "testAlert",
+          "uid" : "1b3ca1dd035d43c1",
+          "parentUid" : "5f21fed54057fcca4a98c88590671b52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322352379,
+            "duration" : 14202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5f21fed54057fcca4a98c88590671b52"
+      }, {
+        "name" : "com.educative.test.actions.TestPrompt",
+        "children" : [ {
+          "name" : "testPrompt",
+          "uid" : "29464acc8946f7",
+          "parentUid" : "6eacfec327a415a9c5a8cb82a5d14865",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322353129,
+            "duration" : 14952
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6eacfec327a415a9c5a8cb82a5d14865"
+      }, {
+        "name" : "com.educative.test.actions.TestRadioButton",
+        "children" : [ {
+          "name" : "testRadioButton",
+          "uid" : "5c2b036f24278a1",
+          "parentUid" : "ebf6ddb33711672ac81b03f8e00ec5b1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322361723,
+            "duration" : 23546
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ebf6ddb33711672ac81b03f8e00ec5b1"
+      }, {
+        "name" : "com.educative.test.actions.TestDragAndDrop",
+        "children" : [ {
+          "name" : "testDragAndDrop",
+          "uid" : "642268a56e1890c5",
+          "parentUid" : "388e6c903fc1f305bbb53f822170bfda",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322338177,
+            "stop" : 1635322364944,
+            "duration" : 26767
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "388e6c903fc1f305bbb53f822170bfda"
+      }, {
+        "name" : "com.educative.test.TestGoogleSearch",
+        "children" : [ {
+          "name" : "testGoogleSearch",
+          "uid" : "7a7b6624a1416a00",
+          "parentUid" : "fd15bbdcd5fcc02b640541ca0bbc88ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322366213,
+            "stop" : 1635322380161,
+            "duration" : 13948
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGoogleSearchFailure",
+          "uid" : "d550c3a7930ef5f4",
+          "parentUid" : "fd15bbdcd5fcc02b640541ca0bbc88ec",
+          "status" : "failed",
+          "time" : {
+            "start" : 1635322381858,
+            "stop" : 1635322390240,
+            "duration" : 8382
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fd15bbdcd5fcc02b640541ca0bbc88ec"
+      }, {
+        "name" : "com.educative.test.actions.TestRightClick",
+        "children" : [ {
+          "name" : "testRightClick",
+          "uid" : "4443de8be52b743b",
+          "parentUid" : "95782f0794f2c9336efb3692b613e18b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322366215,
+            "stop" : 1635322375273,
+            "duration" : 9058
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "95782f0794f2c9336efb3692b613e18b"
+      }, {
+        "name" : "com.educative.test.actions.TestCookie",
+        "children" : [ {
+          "name" : "testACookie",
+          "uid" : "4bdbb2f8c9a46ebf",
+          "parentUid" : "58e9139ac4b6ac9e09ba2b83678a899a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1635322366311,
+            "stop" : 1635322368455,
+            "duration" : 2144
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "58e9139ac4b6ac9e09ba2b83678a899a"
+      } ],
+      "uid" : "90d68d0f9b28447da015012719d9c413"
+    }, {
+      "name" : "Sample UI Test - Mobile",
+      "children" : [ {
+        "name" : "com.educative.test.TestMobileGoogleSearch",
+        "children" : [ {
+          "name" : "testGoogleSearch",
+          "uid" : "fa38b48ad7fa2ca9",
+          "parentUid" : "0bd59e0be7865e3c9a14b17509460ed3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1635322394170,
+            "stop" : 1635322463295,
+            "duration" : 69125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGoogleSearchFailure",
+          "uid" : "2c9896fafe605e35",
+          "parentUid" : "0bd59e0be7865e3c9a14b17509460ed3",
+          "status" : "failed",
+          "time" : {
+            "start" : 1635322466904,
+            "stop" : 1635322473080,
+            "duration" : 6176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0bd59e0be7865e3c9a14b17509460ed3"
+      } ],
+      "uid" : "7ed16596ac14a15de9c3c35fc72cec0d"
+    } ],
+    "uid" : "b0c1bc0a0453061a2ffe111ff677f308"
+  } ]
+}

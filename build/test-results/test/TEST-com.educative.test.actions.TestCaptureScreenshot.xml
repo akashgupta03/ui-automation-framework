@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.actions.TestCaptureScreenshot" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-27T08:12:17" hostname="Akash-Gupta.local" time="29.156">
+  <properties/>
+  <testcase name="testTakeScreenshotOfWebElement" classname="com.educative.test.actions.TestCaptureScreenshot" time="11.538"/>
+  <testcase name="testTakeScreenshotOfWholeWindow" classname="com.educative.test.actions.TestCaptureScreenshot" time="4.176"/>
+  <system-out><![CDATA[13:42:29.470 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (81e388d32ee78e6c07576722ba823939) - (DriverManager.java:26) 
+13:42:29.686 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:42:29.691 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:42:47.077 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (3db0e47e0fd0cf057443a876afa3ab7c) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 34041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>

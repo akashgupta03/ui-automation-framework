@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.TestMobileGoogleSearch" tests="2" skipped="0" failures="2" errors="0" timestamp="2021-10-27T08:13:14" hostname="Akash-Gupta.local" time="78.924">
+  <properties/>
+  <testcase name="testGoogleSearch" classname="com.educative.test.TestMobileGoogleSearch" time="69.139">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(), 'Next') or contains(text(), 'More results')]&quot;}&#10;  (Session info: chrome=95.0.4638.54)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Akash-Gupta.local', ip: 'fe80:0:0:0:1cfc:5638:9550:b771%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/9q/q99g5hnd383...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c1403ad35fcb0db45f8319dcee832ec8&#10;*** Element info: {Using=xpath, value=//span[contains(text(), 'Next') or contains(text(), 'More results')]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(), 'Next') or contains(text(), 'More results')]&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akash-Gupta.local', ip: 'fe80:0:0:0:1cfc:5638:9550:b771%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/9q/q99g5hnd383...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1403ad35fcb0db45f8319dcee832ec8
+*** Element info: {Using=xpath, value=//span[contains(text(), 'Next') or contains(text(), 'More results')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement_aroundBody2(RemoteWebDriver.java:315)
+	at org.openqa.selenium.remote.RemoteWebDriver$AjcClosure3.run(RemoteWebDriver.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)
+	at com.educative.utils.SpeedControllerAspect.findElementsMehod(SpeedControllerAspect.java:34)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.educative.pages.SearchResults.nextPage(SearchResults.java:24)
+	at com.educative.test.TestMobileGoogleSearch.testGoogleSearch(TestMobileGoogleSearch.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</failure>
+  </testcase>
+  <testcase name="testGoogleSearchFailure" classname="com.educative.test.TestMobileGoogleSearch" time="6.383">
+    <failure message="java.lang.AssertionError: failing the test to take screenshot" type="java.lang.AssertionError">java.lang.AssertionError: failing the test to take screenshot
+	at org.testng.Assert.fail(Assert.java:97)
+	at com.educative.test.TestMobileGoogleSearch.testGoogleSearchFailure(TestMobileGoogleSearch.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</failure>
+  </testcase>
+  <system-out><![CDATA[13:43:11.420 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:43:11.426 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:43:14.139 INFO  c.educative.webdriver.DriverFactory - creating webdriver ChromeDriver: chrome on MAC (c1403ad35fcb0db45f8319dcee832ec8) - (DriverFactory.java:73) 
+13:43:16.386 INFO  com.educative.pages.AbstractBasePage - searching query 'educative' - (GoogleSearch.java:24) 
+13:43:21.745 INFO  com.educative.pages.AbstractBasePage - navigating to next page - (SearchResults.java:23) 
+13:44:23.715 INFO  com.educative.BaseTest - saving screenshot to /Users/akashgupta/Downloads/educative-ui-test-framework/screenshots/testmobilegooglesearch_testgooglesearch.png - (BaseTest.java:68) 
+13:44:23.715 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (c1403ad35fcb0db45f8319dcee832ec8) - (DriverManager.java:26) 
+13:44:23.931 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:44:23.938 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:44:26.695 INFO  c.educative.webdriver.DriverFactory - creating webdriver ChromeDriver: chrome on MAC (344fb94d290fc3f478a819a2110c6035) - (DriverFactory.java:73) 
+13:44:28.684 INFO  com.educative.pages.AbstractBasePage - searching query 'educative' - (GoogleSearch.java:24) 
+13:44:33.403 INFO  com.educative.BaseTest - saving screenshot to /Users/akashgupta/Downloads/educative-ui-test-framework/screenshots/testmobilegooglesearch_testgooglesearchfailure.png - (BaseTest.java:68) 
+13:44:33.406 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (344fb94d290fc3f478a819a2110c6035) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 20261
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 27, 2021 1:43:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 11658
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 27, 2021 1:44:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

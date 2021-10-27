@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "failing the test to take screenshot",
+      "children" : [ {
+        "name" : "testGoogleSearchFailure",
+        "uid" : "d550c3a7930ef5f4",
+        "parentUid" : "bc52006318d49b0df4fa36775bcb40cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635322381858,
+          "stop" : 1635322390240,
+          "duration" : 8382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGoogleSearchFailure",
+        "uid" : "2c9896fafe605e35",
+        "parentUid" : "bc52006318d49b0df4fa36775bcb40cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635322466904,
+          "stop" : 1635322473080,
+          "duration" : 6176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc52006318d49b0df4fa36775bcb40cf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(), 'Next') or contains(text(), 'More results')]\"}\n  (Session info: chrome=95.0.4638.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Akash-Gupta.local', ip: 'fe80:0:0:0:1cfc:5638:9550:b771%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/9q/q99g5hnd383...}, goog:chromeOptions: {debuggerAddress: localhost:53199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c1403ad35fcb0db45f8319dcee832ec8\n*** Element info: {Using=xpath, value=//span[contains(text(), 'Next') or contains(text(), 'More results')]}",
+      "children" : [ {
+        "name" : "testGoogleSearch",
+        "uid" : "fa38b48ad7fa2ca9",
+        "parentUid" : "111ffa8cea91e1d69e0c0cee4434bdc3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635322394170,
+          "stop" : 1635322463295,
+          "duration" : 69125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "111ffa8cea91e1d69e0c0cee4434bdc3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

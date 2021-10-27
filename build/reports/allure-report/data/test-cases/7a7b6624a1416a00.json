@@ -1,0 +1,137 @@
+{
+  "uid" : "7a7b6624a1416a00",
+  "name" : "testGoogleSearch",
+  "fullName" : "com.educative.test.TestGoogleSearch.testGoogleSearch",
+  "historyId" : "507df34707525537553402b9a88a531b",
+  "time" : {
+    "start" : 1635322366213,
+    "stop" : 1635322380161,
+    "duration" : 13948
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1635322357590,
+      "stop" : 1635322366187,
+      "duration" : 8597
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "search",
+      "time" : {
+        "start" : 1635322372109,
+        "stop" : 1635322376527,
+        "duration" : 4418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "query",
+        "value" : "educative"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "nextPage",
+      "time" : {
+        "start" : 1635322376527,
+        "stop" : 1635322380161,
+        "duration" : 3634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1635322380173,
+      "stop" : 1635322380270,
+      "duration" : 97
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.educative.test.TestGoogleSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "com.educative.test.TestGoogleSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGoogleSearch"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Sample UI Test - Desktop"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.educative.test.TestGoogleSearch"
+  }, {
+    "name" : "host",
+    "value" : "Akash-Gupta.local"
+  }, {
+    "name" : "thread",
+    "value" : "26299@Akash-Gupta.local.TestNG-test=Sample UI Test - Desktop-8(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a7b6624a1416a00.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "14894e0d9f770eb8",
+  "name" : "testMouseOver",
+  "fullName" : "com.educative.test.actions.TestMouseOver.testMouseOver",
+  "historyId" : "bbc0435135d6e86e4daebae9e074df65",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322356910,
+    "duration" : 18733
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1635322325450,
+      "stop" : 1635322337334,
+      "duration" : 11884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1635322356915,
+      "stop" : 1635322357588,
+      "duration" : 673
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.educative.test.actions.TestMouseOver"
+  }, {
+    "name" : "testClass",
+    "value" : "com.educative.test.actions.TestMouseOver"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMouseOver"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Sample UI Test - Desktop"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.educative.test.actions.TestMouseOver"
+  }, {
+    "name" : "host",
+    "value" : "Akash-Gupta.local"
+  }, {
+    "name" : "thread",
+    "value" : "26299@Akash-Gupta.local.TestNG-test=Sample UI Test - Desktop-8(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14894e0d9f770eb8.json",
+  "parameterValues" : [ ]
+}

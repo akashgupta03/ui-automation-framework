@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.actions.TestAlert" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-27T08:12:17" hostname="Akash-Gupta.local" time="14.476">
+  <properties/>
+  <testcase name="testAlert" classname="com.educative.test.actions.TestAlert" time="14.476"/>
+  <system-out><![CDATA[13:42:17.975 INFO  c.educative.webdriver.DriverFactory - creating webdriver ChromeDriver: chrome on MAC (9ea023d0b3db8fb15e269e49142fbae5) - (DriverFactory.java:73) 
+13:42:32.386 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (2ad6ddd961c8087bbf82f6b3cfd14fc6) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

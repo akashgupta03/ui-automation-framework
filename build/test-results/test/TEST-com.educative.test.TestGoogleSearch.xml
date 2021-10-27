@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.TestGoogleSearch" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-10-27T08:12:46" hostname="Akash-Gupta.local" time="24.026">
+  <properties/>
+  <testcase name="testGoogleSearch" classname="com.educative.test.TestGoogleSearch" time="13.95"/>
+  <testcase name="testGoogleSearchFailure" classname="com.educative.test.TestGoogleSearch" time="8.388">
+    <failure message="java.lang.AssertionError: failing the test to take screenshot" type="java.lang.AssertionError">java.lang.AssertionError: failing the test to take screenshot
+	at org.testng.Assert.fail(Assert.java:97)
+	at com.educative.test.TestGoogleSearch.testGoogleSearchFailure(TestGoogleSearch.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</failure>
+  </testcase>
+  <system-out><![CDATA[13:42:37.597 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:42:37.600 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:43:00.173 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (c0cb0a246c9ea33f6fa47f6159531171) - (DriverManager.java:26) 
+13:43:00.284 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 95.0.4638.17 (since Google Chrome 95 is installed in your machine) - (WebDriverManager.java:600) 
+13:43:00.291 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/akashgupta/.m2/repository/webdriver/chromedriver/mac64/95.0.4638.17/chromedriver - (WebDriverManager.java:1078) 
+13:43:01.837 INFO  c.educative.webdriver.DriverFactory - creating webdriver ChromeDriver: chrome on MAC (fc4ad47ad85be67cfb3ee52c53c4546c) - (DriverFactory.java:73) 
+13:43:10.895 INFO  com.educative.BaseTest - saving screenshot to /Users/akashgupta/Downloads/educative-ui-test-framework/screenshots/testgooglesearch_testgooglesearchfailure.png - (BaseTest.java:68) 
+13:43:10.895 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (fc4ad47ad85be67cfb3ee52c53c4546c) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 15369
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 3336
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 27, 2021 1:43:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

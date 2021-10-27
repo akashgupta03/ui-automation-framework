@@ -1,0 +1,94 @@
+{
+  "uid" : "7a89daf93cd34dec",
+  "name" : "testDoubleClick",
+  "fullName" : "com.educative.test.actions.TestDoubleClick.testDoubleClick",
+  "historyId" : "989090b732a0daf7b4faae9a501eaae3",
+  "time" : {
+    "start" : 1635322338177,
+    "stop" : 1635322361712,
+    "duration" : 23535
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1635322325450,
+      "stop" : 1635322337976,
+      "duration" : 12526
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1635322361719,
+      "stop" : 1635322362256,
+      "duration" : 537
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.educative.test.actions.TestDoubleClick"
+  }, {
+    "name" : "testClass",
+    "value" : "com.educative.test.actions.TestDoubleClick"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDoubleClick"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Sample UI Test - Desktop"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.educative.test.actions.TestDoubleClick"
+  }, {
+    "name" : "host",
+    "value" : "Akash-Gupta.local"
+  }, {
+    "name" : "thread",
+    "value" : "26299@Akash-Gupta.local.TestNG-test=Sample UI Test - Desktop-5(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a89daf93cd34dec.json",
+  "parameterValues" : [ ]
+}

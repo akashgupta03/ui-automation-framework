@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.educative.test.actions.TestDoubleClick" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-27T08:12:17" hostname="Akash-Gupta.local" time="23.734">
+  <properties/>
+  <testcase name="testDoubleClick" classname="com.educative.test.actions.TestDoubleClick" time="23.734"/>
+  <system-out><![CDATA[screenshot saved at /Users/akashgupta/Downloads/educative-ui-test-framework/screenshot.png
+13:42:41.720 INFO  c.educative.webdriver.DriverManager - removing webdriver ChromeDriver: chrome on MAC (9ea023d0b3db8fb15e269e49142fbae5) - (DriverManager.java:26) 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
